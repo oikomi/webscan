@@ -1,0 +1,5 @@
+{
+"exclude": {
+        "suffix": [".pdf", ".txt" , ".jpg"]          
+    }
+}
