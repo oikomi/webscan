@@ -131,9 +131,9 @@ func stringInSlice(a string, list []string) bool {
 
 func getDomain(u string) string {
 	up, err := url.Parse(u)
-    if err != nil {
-        panic(err)
-    }
+	if err != nil {
+		panic(err)
+	}
 	host := up.Host
 	fmt.Println(up.Host)
 	if strings.HasPrefix(up.Host, "www") {
